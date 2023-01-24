@@ -1,0 +1,10 @@
+syntax = 'proto3';
+
+message Money {
+    string currency_code = 1;
+    uint64 integral_amount = 2;
+    fixed32 decimal_amount = 3;
+    
+}
+
+
